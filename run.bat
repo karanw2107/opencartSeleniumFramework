@@ -1,0 +1,2 @@
+cd C:\Eclipse_Workspace\SeleniumTestNGCucumberJenkinsProject_Sept2023
+mvn test

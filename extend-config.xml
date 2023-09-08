@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <!-- Report configuration -->
+    <configuration>
+        <!-- Report theme -->
+        <theme>dark</theme>
+
+        <!-- Document title -->
+        <documentTitle>Extent Reports - Test Automation Report</documentTitle>
+
+        <!-- Report encoding -->
+        <encoding>UTF-8</encoding>
+
+        <!-- Protocol (http, https) and host (if any) to be used in report's URLs -->
+        <protocol>http</protocol>
+        <host>localhost</host>
+
+        <!-- Timezone for report -->
+        <timezone>GMT</timezone>
+
+        <!-- Snapshot and report folder path -->
+        <snapshotPath>./Screenshots/</snapshotPath>
+        <reportPath>./test-output/extent-report.html</reportPath>
+
+        <!-- Screen capture settings -->
+        <screenCapture>
+            <overwriteCaptureImages>true</overwriteCaptureImages>
+            <compressOriginalImage>true</compressOriginalImage>
+        </screenCapture>
+    </configuration>
+
+    <!-- Include additional system information in the report -->
+    <systemInfo>
+        <parameter>
+            <name>OS</name>
+            <value>Windows 10</value>
+        </parameter>
+        <parameter>
+            <name>Browser</name>
+            <value>Chrome</value>
+        </parameter>
+        <!-- Add more system information parameters as needed -->
+    </systemInfo>
+
+    <!-- Customize report categories -->
+    <category>
+        <name>Regression</name>
+        <color>#FF5733</color>
+    </category>
+    <category>
+        <name>Smoke</name>
+        <color>#3399FF</color>
+    </category>
+
+    <!-- Define test suite names -->
+    <test>
+        <name>ExtentReportsTest</name>
+        <!-- Specify test suite level information here if needed -->
+    </test>
+</extentreports>
